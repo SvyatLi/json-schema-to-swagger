@@ -1,0 +1,47 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "Api Documentation",
+    "version": "1.0",
+    "title": "Api Documentation",
+    "termsOfService": "urn:tos",
+    "contact": {},
+    "license": {
+      "name": "Apache 2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0"
+    }
+  },
+  "host": "localhost",
+  "basePath": "/",
+  "tags": [
+    {
+      "name": "REPLACEABLE_NAME",
+      "description": "REPLACEABLE_NAME"
+    }
+  ],
+  "paths": {
+    "/api": {
+      "get": {
+        "tags": [
+          "REPLACEABLE_NAME"
+        ],
+        "summary": "REPLACEABLE_NAME",
+        "operationId": "REPLACEABLE_NAMEUsingGET",
+        "produces": [
+          "*/*"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/REPLACEABLE_MAIN_DEFINITION"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+
+  }
+}
